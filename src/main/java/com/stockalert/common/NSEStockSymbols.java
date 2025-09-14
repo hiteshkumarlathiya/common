@@ -116,11 +116,11 @@ public class NSEStockSymbols {
         MINDTREE, MPHASIS, PERSISTENT, COFORGE, INDIGO, INTERGLOBE, IEX, BSE, NSE, CDSL,
         CAMS, HONAUT, ABB, SCHNEIDER, SIEMENS
     );
-    public static List<String> pickRandomSymbols() {
+    public static List<String> pickRandomSymbols1() {
     	return List.of(RELIANCE);
     }
     
-    public static List<String> pickRandomSymbols1() {
+    public static List<String> pickRandomSymbols() {
         List<String> allSymbols = new ArrayList<>(NSEStockSymbols.ALL_SYMBOLS);
         Collections.shuffle(allSymbols); // Randomize order
 
